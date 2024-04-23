@@ -1,0 +1,17 @@
+<h1>Blog del comprador</h1>
+<div id="cuadro">
+
+  <p id="cabecero">Casas a la venta</p>
+@for(elemento of articulos; track elemento.id){
+  <div class="casa">
+    <img [src]="elemento.imagen" class="imagenes">
+    <div class="descripcion">
+      <a class="titulo">{{elemento.nombre}}</a>
+      <p class="parrafo">{{elemento.descripcion}}</p>
+      <a [routerLink]="['/articulo',elemento.id]" class="link">Mas Informacion</a>
+    </div>
+  </div>
+}@empty {
+    <p>No hay artículos para mostrar</p>
+}
+</div>

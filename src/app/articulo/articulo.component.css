@@ -1,0 +1,17 @@
+#cuerpo{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#imagen{
+    width: 40%;
+    height: autos;
+}
+#descripcion{
+    font-size: small;
+    margin-left: 7%;
+    margin-right: 7%;
+}

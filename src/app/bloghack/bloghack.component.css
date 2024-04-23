@@ -1,0 +1,60 @@
+#cabecero{
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#cuuerpo{
+    width: 100%;
+    background-color: black;
+}
+#titulo{
+    color: greenyellow;
+}
+#boton{
+    background-color: greenyellow;
+    color: white;
+    width: 20%;
+    height: 100%;
+}
+#imagen{
+    width: 100%;
+}
+#opciones{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+.articulo{
+    width: 22.5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 1%;
+    border-color: white;
+    margin-left: 2%;
+}
+.imagenes{
+    width: 100%;
+}
+.descripcion{
+    color: white;
+}
+body{
+    background-color: black;
+}
+.botones{
+    background-color: greenyellow;
+    color: white;
+    width: 70%;
+    height: auto;
+}
+*{
+    background-color: black;
+}
+

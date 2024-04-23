@@ -1,0 +1,21 @@
+#cuerpo{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#imagen{
+    width: 40%;
+    height: auto;
+}
+#descripcion{
+    font-size: small;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: greenyellow;
+}
+#titulo{
+    color: greenyellow;
+}

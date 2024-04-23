@@ -1,0 +1,16 @@
+<div id="cabecero">
+    <h1 id="titulo">Su blog de Ciberseguridad</h1>
+    <button id="boton">Alta articulos</button>
+</div>
+<div id="Cuerpo">
+    <img src="https://th.bing.com/th/id/OIP.vOWQq1TT6PIT1BkVmI-W4wHaEK?w=323&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" id="imagen">
+    <div id="opciones">
+        @for (a of articulos; track a) {
+            <div class="articulo">
+                <img [src]="a.imagen" class="imagenes">
+                <p class="descripcion">{{a.descripcion}}</p>
+                <button [routerLink]="['/articulo',a.id]" class="botones">Mas informacion</button>
+            </div>
+        }
+    </div>
+</div>

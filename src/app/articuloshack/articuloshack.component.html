@@ -1,0 +1,10 @@
+@for (item of articulos; track item) {
+    @if (item.id==id) {
+        <div id="cuerpo">
+        <h1 id="titulo">{{item.nombre}}</h1>
+        <img [src]="item.imagen" id="imagen">
+        <p id="descripcion">{{item.descripcion}}</p>
+        <a [routerLink]="['']" class="link">Volver</a>
+    </div>
+    }
+}
