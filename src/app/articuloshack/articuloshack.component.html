@@ -1,10 +1,8 @@
-@for (item of articulos; track item) {
-    @if (item.id==id) {
+
         <div id="cuerpo">
-        <h1 id="titulo">{{item.nombre}}</h1>
-        <img [src]="item.imagen" id="imagen">
-        <p id="descripcion">{{item.descripcion}}</p>
+        <h1 id="titulo">{{articulos[id].nombre}}</h1>
+        <img [src]="articulos[id].imagen" id="imagen">
+        <p id="descripcion">{{articulos[id].descripcion}}</p>
         <a [routerLink]="['']" class="link">Volver</a>
     </div>
-    }
-}
+
